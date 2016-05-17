@@ -3,6 +3,8 @@
 ## Goals
 Before starting this lab, you should have completed Tutorial 2 of Ray Wenderlich's iOS Apprentice (Beginning iOS Development with Swift 2). That tutorial continued your introduction to the Swift programming language and introduced classes, subclasses, table views, navigation controllers, and delegates. With this extension you'll get additional practice working on these concepts. The Advanced section will also test your ability to search for and implement third-party code.
 
+> As you work through this lab, use dummy data so you have content to work with, start with small changes so you can track what work you've done, and compile often. You should never be more than a couple undos away from a working build. And remember, we purposely left some holes in the instructions to increase the challenge. If you get stuck, *Google all your woes away*. It's the same thing seasoned pros do, so get used to the process. When you've searched and studied as much as you can, and you still can't find an answer, talk to an instructor. We're always happy to help!
+
 ## Separate checklists based on completion status
 ### Instructions
 Instead of grouping all of our checklists together, let's add sections to the `AllListsViewController` to differentiate complete checklists from those still in progress. Checklists which have not yet been completed should appear in a section titled *In Progress*. Checklists whose items have all been checked off will fall into the *Completed* section with their titles grayed out.
@@ -24,14 +26,14 @@ Instead of grouping all of our checklists together, let's add sections to the `A
 ### Instructions
 Often times it's useful to have lists within a single task on a list. A simple example is a high-level list titled *Home*, which contains tasks such as:
 
->* Do Laundry
-* Clean up from last night's ice cream party
-* Locate missing ice cream scoop
-* Get Groceries
+> * Do Laundry
+  * Clean up from last night's ice cream party
+  * Locate missing ice cream scoop
+  * Get Groceries
 
 But what if we want more detail for a certain item on that list? Say we want to describe all the groceries we need to speed up our shopping trip. One way to do this would be to have a list of sub-items for the *Get Groceries* task:
 
->* Get Groceries
+> * Get Groceries
   * Ice cream
   * Chocolate syrup
   * Sprinkles
@@ -71,12 +73,12 @@ Using a CocoaPod is optional. There are plenty of resources to help with creatin
 ### Bling out your app
 Your To Do List app has some pretty cool functionality, but let's be honest, its looks leave a lot to be desired. Let's spice things up with some custom graphics and UI elements.
 
->This portion of the assignment goes outside the realm of code and into design. It's important to have a sense of how elements of a User Interface are built, but remember: you're here to code.
->*Don't spend more than four hours of class time working on this section.* If you really like Sketch you're more than welcome to continue experimenting at home.
+> This portion of the assignment goes outside the realm of code and into design. It's important to have a sense of how elements of a User Interface are built, but remember: you're here to code.
+> *Don't spend more than four hours of class time working on this section.* If you really like Sketch you're more than welcome to continue experimenting at home.
 
 First, download the 14 day free trial of [Sketch App](http://sketchapp.com), the hot-new-thing in the world of mobile and graphic design.
 
->You're not required to purchase Sketch, but if you choose to do so you can submit a screenshot of your Flatiron School letter of admission to get educational discount pricing.
+> You're not required to purchase Sketch, but if you choose to do so you can submit a screenshot of your Flatiron School letter of admission to get educational discount pricing.
 
 Try improving or adding these UI elements:
 
