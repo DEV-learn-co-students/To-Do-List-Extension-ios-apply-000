@@ -3,7 +3,7 @@
 ## Goals
 Before starting this lab, you should have completed Tutorial 2 of Ray Wenderlich's iOS Apprentice (Beginning iOS Development with Swift 2). That tutorial continued your introduction to the Swift programming language and introduced classes, subclasses, table views, navigation controllers, and delegates. With this extension you'll get additional practice working on these concepts. The Advanced section will also test your ability to search for and implement third-party code.
 
-> As you work through this lab, use fake data so you have content to work with, start with small changes so you can track what work you've done, and compile often. You should never be more than a couple undos away from a working build. And remember, we purposely left some holes in the instructions to increase the challenge. If you get stuck, *Google all your woes away*. It's the same thing seasoned pros do, so get used to the process. When you've searched and studied as much as you can, and you still can't find an answer, talk to an instructor. We're always happy to help!
+> As you work through this lab, use fake data so you have content to work with, start with small changes so you can track what work you've done, and compile often. You should never be more than a couple undos away from a working build. And remember, we purposely left some holes in the instructions to increase the challenge. If you get stuck, ***Google all your woes away***. It's the same thing seasoned pros do, so get used to the process. When you've searched and studied as much as you can, and you still can't find an answer, talk to an instructor. We're always happy to help!
 
 ## Separate checklists based on completion status
 ### Instructions
@@ -49,6 +49,7 @@ Here are the criteria for our multilevel list extension: Tapping on a task shoul
 #### 2. Update your views
 * Add an additional cell prototype to `CheckListViewController`.
 	* Think about what you'll need to allow the user to add items (buttons, swipe to delete, ability to check items off etc.).
+	* The top repsonse on this [thread](http://stackoverflow.com/questions/30774671/uitableview-with-more-than-one-custom-cells-with-swift) is an excellent source for steps on how to add multiple prototype cells and populate some data.
 * Add a new view controller to storyboard and connect it to a new view controller class.
 	* Put yourself in the user's place and think about how they'll want to add their sublists. Will it be as detailed as `ItemDetailViewController`? Probably not. But checking out what you did there is a good start.
 
