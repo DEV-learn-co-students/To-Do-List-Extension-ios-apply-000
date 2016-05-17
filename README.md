@@ -3,7 +3,7 @@
 ## Goals
 Before starting this lab, you should have completed Tutorial 2 of Ray Wenderlich's iOS Apprentice (Beginning iOS Development with Swift 2). That tutorial continued your introduction to the Swift programming language and introduced classes, subclasses, table views, navigation controllers, and delegates. With this extension you'll get additional practice working on these concepts. The Advanced section will also test your ability to search for and implement third-party code.
 
-> As you work through this lab, use dummy data so you have content to work with, start with small changes so you can track what work you've done, and compile often. You should never be more than a couple undos away from a working build. And remember, we purposely left some holes in the instructions to increase the challenge. If you get stuck, *Google all your woes away*. It's the same thing seasoned pros do, so get used to the process. When you've searched and studied as much as you can, and you still can't find an answer, talk to an instructor. We're always happy to help!
+> As you work through this lab, use dummy data so you have content to work with, start with small changes so you can track what work you've done, and compile often. You should never be more than a couple undos away from a working build. And remember, we purposely left some holes in the instructions to increase the challenge. If you get stuck, **Google all your woes away**. It's the same thing seasoned pros do, so get used to the process. When you've searched and studied as much as you can, and you still can't find an answer, talk to an instructor. We're always happy to help!
 
 ## Separate checklists based on completion status
 ### Instructions
@@ -21,6 +21,10 @@ Instead of grouping all of our checklists together, let's add sections to the `A
 #### 3. Read the Completion Status of the checklists and sort them appropriately
 * Every time we load the `AllListsViewController`, the `isCompleted` property on each checklist should be read. Checklists should be sorted into the appropriate section.
 * Lists in the *Completed* section should appear visibly different from those in the *In Progress* section.
+
+![Separate Sections for Checklists](https://cloud.githubusercontent.com/assets/16245367/15329484/e9db83fa-1c26-11e6-9e5d-ba2813393bf0.png "Checklist Sections")
+
+Your separate sections should look similar to this.
 
 ## Add sub-lists to items in the ChecklistViewController
 ### Instructions
