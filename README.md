@@ -41,6 +41,11 @@ But what if we want more detail for a certain item on that list? Say we want to 
 
 Here are the criteria for our multilevel list extension: Tapping on a task should show its sub-items, if any exist. Tapping on a sub-item should mark it as complete. Once all sub-items are marked as complete, the task should also be marked as complete. If no sub-items exist for a task, tapping on a task should mark it as complete.
 
+Example of what it could look like             |  
+:-------------------------:|
+![](https://cloud.githubusercontent.com/assets/15805090/15329576/30c95724-1c27-11e6-8248-64ffa08d7b41.png)  |
+
+
 #### 1. Create a new class for your sub list items
 * Create properties to capture appropriate sublist information in a collection.
 * Update the data model to include your new class similar to how `CheckListItem` class is handled.
@@ -68,6 +73,12 @@ Find a way to enable users to reorder lists and items. There are multiple ways t
 One way would be to use gesture recognizers. Read [Apple's documentation](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/) before you continue to get a sense of what gesture recognizers are and how you can use them. This [tutorial](https://www.raywenderlich.com/63089/cookbook-moving-table-view-cells-with-a-long-press-gesture) walks you through implementing a *long press gesture recognizer* to reorder cells in a table view. Try this method out, then look up alternatives. Find at least two more ways to implement list reordering and see if you can implement those, too.  
 
 ### Expanding table view cells
+
+Collapsed             |  Expanded
+:-------------------------:|:-------------------------:
+![](https://cloud.githubusercontent.com/assets/15805090/15329606/4a43444e-1c27-11e6-9e95-c895e4a21d86.png)  |  ![](https://cloud.githubusercontent.com/assets/15805090/15329596/3f76405c-1c27-11e6-9cb8-5769a8a866a7.png)
+
+
 Instead of displaying a task's sub-items as table view cells when the task is tapped, expand the task's cell and display the sub-items within that cell. This will be an exercise in googling. You can look for [CocoaPod](https://cocoapods.org) to help you accomplish this portion of the assignment. After you've found one, be sure and look up the exact steps for adding and using a Pod. It's not as easy as dragging and dropping a file.
 
 *Protip*: when it comes time to edit the Podfile in the process of adding a CocoaPod to your project, be sure and open it with Atom or Sublime Text, not TextEdit. Quotation marks are converted/handled weird and may cause problems when your program tries to read the file.
