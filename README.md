@@ -54,7 +54,7 @@ Here are the criteria for our multilevel list extension: Tapping on a task shoul
 * The situation for sending information from `SubItemDetailViewController` to the `CheckListViewController` is practically identical
 
 
-## Advanced (Optional)
+## Advanced
 
 ### Reordering
 Find a way to enable users to reorder lists and items. There are multiple ways to accomplish this. Think about how a user will experience your app. How would you want to reorder a list?
