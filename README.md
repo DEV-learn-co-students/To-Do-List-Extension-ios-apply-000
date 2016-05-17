@@ -48,7 +48,7 @@ Here are the criteria for our multilevel list extension: Tapping on a task shoul
 
 Example of what it could look like             |  
 :-------------------------:|
-![](https://cloud.githubusercontent.com/assets/15805090/15329576/30c95724-1c27-11e6-8248-64ffa08d7b41.png)  |
+![](https://cloud.githubusercontent.com/assets/15805090/15330248/0b6eb494-1c2a-11e6-83f2-e0d824927635.png)  |
 
 
 #### 1. Create a new class for your sub list items
